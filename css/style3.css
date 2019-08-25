@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../g3.jpg);
+
+
+}
+
+
+
+.box{
+	height: 417px;
+	width:280px;
+	background:#3c3c3c;
+	margin: 250px auto;
+	box-shadow: 2px 4px 10px black; 
+
+}
+
+
+.login img{
+display: block;
+margin: 0px auto;
+
+}
+.login h2{
+text-align: center;
+color: tomato;
+padding: 7px;
+}
+.form{
+margin: 10px 0px 10px 53px;
+padding: 8px auto;
+
+transition: 0.5s ease;
+}
+.form:hover{
+box-shadow: 1px 1px 4px #fff; 
+
+
+}
+.btn {
+display: block;
+margin: 17px auto 0px;
+padding: 8px 45px;
+background:tomato;
+text-decoration: none;
+border: 0px;
+border-radius: 10px;
+color: #fff;
+transition: 0.5s ease;
+
+}
+
+.btn:hover{
+color: #8e44ad;
+background: #fff;
+}
+
+.signup a{
+	
+color: black;
+text-decoration: none;
+text-align: center;
+display: block;
+transition: 0.5s ease;
+
+}
+
+.signup a:hover{
+
+	color:tomato ;
+background: #fff;
+}
